@@ -1,0 +1,118 @@
+{
+    "Table_ID": "Master_Table_2_RQ2_Paired_Contingency",
+    "Description": "RQ2 Paired Defect-Catch Contingency Table across 1,240 Verified Defect-Introducing Agentic-PRs",
+    "Cohort": "Verified Defect-Introducing Agentic-PR Cohort (N=1,240)",
+    "Contingency_Matrix_2x2": {
+        "Both_Caught": {
+            "count": 140,
+            "pct_of_all_defects": 11.29
+        },
+        "AI_Only_b": {
+            "count": 361,
+            "pct_of_all_defects": 29.11
+        },
+        "Tool_Only_c": {
+            "count": 260,
+            "pct_of_all_defects": 20.97
+        },
+        "Neither_Caught": {
+            "count": 479,
+            "pct_of_all_defects": 38.63
+        },
+        "Total_Cohort": 1240
+    },
+    "Marginal_Totals": {
+        "AI_Total_Catches": {
+            "count": 501,
+            "rate": 0.404
+        },
+        "AI_Total_Misses": {
+            "count": 739,
+            "rate": 0.596
+        },
+        "Tool_Total_Catches": {
+            "count": 400,
+            "rate": 0.323
+        },
+        "Combined_Unique_Catches": {
+            "count": 761,
+            "rate": 0.614
+        },
+        "Net_Gain_Over_AI": {
+            "pp": 21.0,
+            "ci_95": [
+                18.7,
+                23.3
+            ]
+        },
+        "Tool_Complementarity_Dual_Formulation": {
+            "pct_of_all_target_defects": 20.97,
+            "pct_of_ai_missed_defects": 35.18,
+            "formal_statement": "CodeQL additionally identified 21.0% of all target defects (260/1,240), equivalent to 35.2% of those missed by AI (260/739)."
+        }
+    },
+    "Primary_Paired_Hypothesis_Test": {
+        "Test_Name": "McNemar's test with continuity correction",
+        "Unit_Of_Inference": "Single Defect-Introducing PR (N=1,240)",
+        "Discordant_b": 361,
+        "Discordant_c": 260,
+        "chi2_stat": 16.103,
+        "df": 1,
+        "p_value": 6e-05,
+        "significance": "p < 0.001"
+    },
+    "Secondary_Category_Divergence_Test": {
+        "Test_Name": "Pearson's Chi-square test of independence on 2x4 category catch table",
+        "Unit_Of_Inference": "Positive Defect Detection Events (N_catches = 901)",
+        "Contingency_Table_2x4": {
+            "Race_Conditions": {
+                "AI_Catches": 42,
+                "Tool_Catches": 72,
+                "Total": 114,
+                "E_min": 50.61
+            },
+            "Authentication": {
+                "AI_Catches": 51,
+                "Tool_Catches": 85,
+                "Total": 136,
+                "E_min": 60.38
+            },
+            "Syntax_Local": {
+                "AI_Catches": 345,
+                "Tool_Catches": 175,
+                "Total": 520,
+                "E_min": 230.85
+            },
+            "Business_Logic": {
+                "AI_Catches": 63,
+                "Tool_Catches": 68,
+                "Total": 131,
+                "E_min": 58.16
+            }
+        },
+        "chi2_stat": 61.615,
+        "df": 3,
+        "p_value": 2.66e-13,
+        "cramers_v": 0.262,
+        "cramers_v_formula": "sqrt(61.61488 / (901 * 1)) = 0.2615 ~ 0.262",
+        "min_expected_frequency": 50.61
+    },
+    "Multi_File_Complex_Flaws": {
+        "Categories": "Concurrency + Authentication (N=330 PRs)",
+        "AI_Missed_Defects": 237,
+        "Tool_Intercepted": 150,
+        "Interception_Rate": 0.6329
+    },
+    "Operational_Friction": {
+        "CodeQL_Build_Failure_Rate": 0.082,
+        "CodeQL_Build_Failure_Count": 102,
+        "Handling_Policy": "Conservatively retained in denominator and classified as Tool Misses",
+        "Average_Spurious_Alerts_Per_100_PRs": 18.4,
+        "Domain_Spurious_Alerts": {
+            "Race": 12.5,
+            "Auth": 15.2,
+            "Syntax": 4.8,
+            "Logic": 32.6
+        }
+    }
+}

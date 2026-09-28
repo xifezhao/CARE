@@ -1,0 +1,31 @@
+{
+    "Categories": [
+        "Syntax/Style",
+        "Race Conditions",
+        "Auth Flows",
+        "Business Logic"
+    ],
+    "Observed_Monoculture": [
+        345,
+        42,
+        51,
+        63
+    ],
+    "Observed_Orthogonal": [
+        175,
+        72,
+        85,
+        68
+    ],
+    "Statistics": {
+        "Test": "Pearson's Chi-Square Test of Independence",
+        "Degrees_of_Freedom": 3,
+        "Chi2_Statistic": 61.614880674761665,
+        "p_value": 2.6556202420193816e-13,
+        "Is_Significant_0_001": true,
+        "Effect_Size_Cramers_V": 0.262,
+        "Effect_Interpretation": "Strong",
+        "Assumptions_Met": true,
+        "Min_Expected_Cell_Frequency": 50.61
+    }
+}

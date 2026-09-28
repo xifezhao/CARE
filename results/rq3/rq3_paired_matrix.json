@@ -1,0 +1,30 @@
+{
+    "Defect_PR_Sample_Size": 30,
+    "Pairing_Matrix_2x2": {
+        "Both_Found": 21,
+        "D_Only_Found": 6,
+        "C_Only_Found": 0,
+        "Neither_Found": 3
+    },
+    "Total_Found": {
+        "Condition_C": 21,
+        "Condition_D": 27
+    },
+    "Net_Improvement": {
+        "PR_Count": 6,
+        "Percentage_Points": 20.0,
+        "95_CI_Wilson": [
+            4.3,
+            35.7
+        ]
+    },
+    "Exact_McNemar_Test": {
+        "Discordant_Pairs_b_c": [
+            6,
+            0
+        ],
+        "p_value_two_sided": 0.03125,
+        "p_value_one_sided": 0.01562,
+        "Is_Significant_0_05": true
+    }
+}

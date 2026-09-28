@@ -1,0 +1,101 @@
+{
+    "Cohort_Description": "Verified Defect-Introducing Agentic-PR Cohort (N=1,240 PRs, each with 1 post-merge verified defect, evaluated under both production homogeneous AI review and offline CodeQL static analysis on HEAD commit)",
+    "Build_Failure_Handling": "Conservative: All 102 CodeQL build/AST parsing failures (8.2%) are retained in the denominator and classified as Tool Misses (either in AI-Only or Neither-Caught).",
+    "Primary_Paired_Test_McNemar": {
+        "Unit_Of_Inference": "Pull Request with Ground-Truth Defect (N=1,240)",
+        "Discordant_Pairs": {
+            "AI_Only_b": 361,
+            "Tool_Only_c": 260,
+            "Total_Discordant": 621
+        },
+        "McNemar_Chi2_Corrected": 16.103,
+        "Degrees_of_Freedom": 1,
+        "p_value": 5.998704416662942e-05,
+        "Interpretation": "Statistically significant asymmetry between AI-only and Tool-only detections (p < 0.001)"
+    },
+    "Secondary_Category_Divergence_Chi2": {
+        "Unit_Of_Inference": "Successful Defect Detection Events (N=901 events across 4 categories)",
+        "Total_Catches": 901,
+        "AI_Catches": 501,
+        "Tool_Catches": 400,
+        "Chi2_Statistic": 61.614880674761665,
+        "Degrees_of_Freedom": 3,
+        "p_value": 2.6556202420193816e-13,
+        "Cramers_V": 0.262,
+        "Formula_Verification": "Cramer's V = sqrt(61.61488 / (901 * 1)) = 0.2615 ~ 0.262 (Matches N_events = 901)"
+    },
+    "Categories": {
+        "Race_Conditions": {
+            "Total_Defects": 150,
+            "Both_Caught": 4,
+            "AI_Only": 38,
+            "Tool_Only": 68,
+            "Neither_Caught": 40,
+            "AI_Total_Catches": 42,
+            "Tool_Total_Catches": 72,
+            "AI_Overlooked_Defects": 108,
+            "Tool_Intercepted_Overlooked": 68,
+            "Tool_Overlooked_Catch_Rate": 0.63,
+            "Spurious_Alerts_Per_100_PRs": 12.5
+        },
+        "Authentication_Flows": {
+            "Total_Defects": 180,
+            "Both_Caught": 3,
+            "AI_Only": 48,
+            "Tool_Only": 82,
+            "Neither_Caught": 47,
+            "AI_Total_Catches": 51,
+            "Tool_Total_Catches": 85,
+            "AI_Overlooked_Defects": 129,
+            "Tool_Intercepted_Overlooked": 82,
+            "Tool_Overlooked_Catch_Rate": 0.636,
+            "Spurious_Alerts_Per_100_PRs": 15.2
+        },
+        "Syntax_Local": {
+            "Total_Defects": 550,
+            "Both_Caught": 115,
+            "AI_Only": 230,
+            "Tool_Only": 60,
+            "Neither_Caught": 145,
+            "AI_Total_Catches": 345,
+            "Tool_Total_Catches": 175,
+            "AI_Overlooked_Defects": 205,
+            "Tool_Intercepted_Overlooked": 60,
+            "Tool_Overlooked_Catch_Rate": 0.293,
+            "Spurious_Alerts_Per_100_PRs": 4.8
+        },
+        "Business_Logic": {
+            "Total_Defects": 360,
+            "Both_Caught": 18,
+            "AI_Only": 45,
+            "Tool_Only": 50,
+            "Neither_Caught": 247,
+            "AI_Total_Catches": 63,
+            "Tool_Total_Catches": 68,
+            "AI_Overlooked_Defects": 297,
+            "Tool_Intercepted_Overlooked": 50,
+            "Tool_Overlooked_Catch_Rate": 0.168,
+            "Spurious_Alerts_Per_100_PRs": 32.6
+        }
+    },
+    "Combined_Totals": {
+        "Total_Cohort_Defects": 1240,
+        "Both_Caught": 140,
+        "AI_Only": 361,
+        "Tool_Only": 260,
+        "Neither_Caught": 479,
+        "Total_AI_Catches": 501,
+        "AI_Catch_Rate": 0.404,
+        "Total_Tool_Catches": 400,
+        "Tool_Catch_Rate": 0.323,
+        "Combined_Unique_Catches": 761,
+        "Combined_Catch_Rate": 0.614,
+        "Net_Improvement_Over_AI": 0.21,
+        "Multi_File_Complex_Overlooked_Total": 237,
+        "Multi_File_Complex_Intercepted_By_Tool": 150,
+        "Multi_File_Overlooked_Interception_Rate": 0.6329,
+        "Average_Spurious_Alerts_Per_100_PRs": 18.4,
+        "CodeQL_Build_Failure_Rate": 0.082,
+        "CodeQL_Build_Failure_Count": 102
+    }
+}

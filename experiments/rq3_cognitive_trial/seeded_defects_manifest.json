@@ -1,0 +1,1532 @@
+[
+  {
+    "benchmark_id": "BENCH-001",
+    "pr_id": "PR-2025-ASYNC-101",
+    "sample_type": "controlled_injection",
+    "repository": "distributed-task-worker",
+    "commit_hash": "0001abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-001-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/worker/state_machine.py",
+      "line_range": [
+        115,
+        128
+      ],
+      "defect_description": "TOCTOU race in worker state transition lock release",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-002",
+    "pr_id": "PR-2025-ASYNC-102",
+    "sample_type": "historical_verified",
+    "repository": "event-stream-broker",
+    "commit_hash": "0002abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-002-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/broker/partition_lease.py",
+      "line_range": [
+        88,
+        97
+      ],
+      "defect_description": "Double-lease acquisition on split-brain reconnect",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-003",
+    "pr_id": "PR-2025-ASYNC-103",
+    "sample_type": "controlled_injection",
+    "repository": "distributed-cache-store",
+    "commit_hash": "0003abcdef012345",
+    "domain": "Architecture",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-003-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/cache/lru_eviction.py",
+      "line_range": [
+        142,
+        155
+      ],
+      "defect_description": "Deadlock condition in lock hierarchy inversion during eviction",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-004",
+    "pr_id": "PR-2025-ASYNC-104",
+    "sample_type": "historical_verified",
+    "repository": "queue-orchestrator",
+    "commit_hash": "0004abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-004-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/queue/priority_dispatch.py",
+      "line_range": [
+        63,
+        75
+      ],
+      "defect_description": "Atomicity violation in channel drain loop under high contention",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-005",
+    "pr_id": "PR-2025-ASYNC-105",
+    "sample_type": "controlled_injection",
+    "repository": "realtime-sync-service",
+    "commit_hash": "0005abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-005-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/sync/delta_merge.py",
+      "line_range": [
+        204,
+        219
+      ],
+      "defect_description": "Race condition between optimistic commit and rollback journal",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-006",
+    "pr_id": "PR-2025-ASYNC-106",
+    "sample_type": "historical_verified",
+    "repository": "raft-consensus-node",
+    "commit_hash": "0006abcdef012345",
+    "domain": "Architecture",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-006-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/consensus/election_timer.py",
+      "line_range": [
+        45,
+        58
+      ],
+      "defect_description": "Election term overwrite during split-vote timeout window",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-007",
+    "pr_id": "PR-2025-ASYNC-107",
+    "sample_type": "controlled_injection",
+    "repository": "async-job-scheduler",
+    "commit_hash": "0007abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-007-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/scheduler/cron_executor.py",
+      "line_range": [
+        178,
+        190
+      ],
+      "defect_description": "Phantom trigger execution due to non-synchronized datetime increment",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-008",
+    "pr_id": "PR-2025-ASYNC-108",
+    "sample_type": "historical_verified",
+    "repository": "distributed-lock-mgr",
+    "commit_hash": "0008abcdef012345",
+    "domain": "Architecture",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-008-CONC",
+      "category": "Concurrency",
+      "vulnerable_file": "src/lock/redis_redlock.py",
+      "line_range": [
+        92,
+        106
+      ],
+      "defect_description": "Clock drift leads to premature lock release before lease TTL",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-009",
+    "pr_id": "PR-2025-AUTH-201",
+    "sample_type": "controlled_injection",
+    "repository": "agentic-auth-service",
+    "commit_hash": "0009abcdef012345",
+    "domain": "Security",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-009-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/security/jwt_validator.py",
+      "line_range": [
+        42,
+        48
+      ],
+      "defect_description": "Accepts none algorithm in fallback parsing without signature enforcement",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-010",
+    "pr_id": "PR-2025-AUTH-202",
+    "sample_type": "historical_verified",
+    "repository": "oauth2-provider",
+    "commit_hash": "000aabcdef012345",
+    "domain": "Security",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-010-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/oauth/pkce_verifier.py",
+      "line_range": [
+        110,
+        121
+      ],
+      "defect_description": "Missing code_verifier validation on token exchange endpoint",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-011",
+    "pr_id": "PR-2025-AUTH-203",
+    "sample_type": "controlled_injection",
+    "repository": "iam-policy-engine",
+    "commit_hash": "000babcdef012345",
+    "domain": "Security",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-011-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/iam/rbac_evaluator.py",
+      "line_range": [
+        230,
+        244
+      ],
+      "defect_description": "Default-allow fallback on unhandled tenant wildcard permission",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-012",
+    "pr_id": "PR-2025-AUTH-204",
+    "sample_type": "historical_verified",
+    "repository": "api-gateway-service",
+    "commit_hash": "000cabcdef012345",
+    "domain": "Security",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-012-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/gateway/cors_filter.py",
+      "line_range": [
+        72,
+        83
+      ],
+      "defect_description": "Insecure wildcard origin reflection in credentialed requests",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-013",
+    "pr_id": "PR-2025-AUTH-205",
+    "sample_type": "controlled_injection",
+    "repository": "session-manager",
+    "commit_hash": "000dabcdef012345",
+    "domain": "Security",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-013-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/session/redis_session.py",
+      "line_range": [
+        55,
+        68
+      ],
+      "defect_description": "Session fixation vulnerability on privilege level elevation",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-014",
+    "pr_id": "PR-2025-AUTH-206",
+    "sample_type": "historical_verified",
+    "repository": "credential-vault",
+    "commit_hash": "000eabcdef012345",
+    "domain": "Security",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-014-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/vault/encryption_wrapper.py",
+      "line_range": [
+        135,
+        148
+      ],
+      "defect_description": "Replay vulnerability: static IV reused across AES-GCM encryptions",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-015",
+    "pr_id": "PR-2025-AUTH-207",
+    "sample_type": "controlled_injection",
+    "repository": "user-identity-api",
+    "commit_hash": "000fabcdef012345",
+    "domain": "Security",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-015-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/identity/mfa_challenge.py",
+      "line_range": [
+        89,
+        102
+      ],
+      "defect_description": "Bypass MFA challenge step via direct parameter injection",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-016",
+    "pr_id": "PR-2025-AUTH-208",
+    "sample_type": "historical_verified",
+    "repository": "webhook-dispatcher",
+    "commit_hash": "0010abcdef012345",
+    "domain": "Security",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-016-AUTH",
+      "category": "Authentication",
+      "vulnerable_file": "src/webhook/signature_signer.py",
+      "line_range": [
+        160,
+        172
+      ],
+      "defect_description": "Timing attack vulnerability using standard equality instead of constant-time compare",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-017",
+    "pr_id": "PR-2025-BILL-301",
+    "sample_type": "controlled_injection",
+    "repository": "cloud-billing-engine",
+    "commit_hash": "0011abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-017-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/billing/tier_calculator.py",
+      "line_range": [
+        77,
+        85
+      ],
+      "defect_description": "Floating point rounding error in multi-tenant tier discount quantization",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-018",
+    "pr_id": "PR-2025-BILL-302",
+    "sample_type": "historical_verified",
+    "repository": "payment-gateway",
+    "commit_hash": "0012abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-018-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/payment/idempotency.py",
+      "line_range": [
+        104,
+        118
+      ],
+      "defect_description": "Double-charge on retry: idempotency key omitted in webhook retry header",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-019",
+    "pr_id": "PR-2025-BILL-303",
+    "sample_type": "controlled_injection",
+    "repository": "subscription-service",
+    "commit_hash": "0013abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-019-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/sub/proration.py",
+      "line_range": [
+        150,
+        165
+      ],
+      "defect_description": "Negative bill generation on mid-cycle downgrade with rollover credits",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-020",
+    "pr_id": "PR-2025-BILL-304",
+    "sample_type": "historical_verified",
+    "repository": "inventory-ledger",
+    "commit_hash": "0014abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-020-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/ledger/stock_deduction.py",
+      "line_range": [
+        82,
+        94
+      ],
+      "defect_description": "Negative inventory allocation when simultaneous order checkout overflows reserve",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-021",
+    "pr_id": "PR-2025-BILL-305",
+    "sample_type": "controlled_injection",
+    "repository": "pricing-service",
+    "commit_hash": "0015abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-021-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/pricing/currency_exchange.py",
+      "line_range": [
+        60,
+        71
+      ],
+      "defect_description": "Stale exchange rate applied due to unhandled caching expiry fallback",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-022",
+    "pr_id": "PR-2025-BILL-306",
+    "sample_type": "historical_verified",
+    "repository": "tax-calculation-svc",
+    "commit_hash": "0016abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-022-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/tax/nexus_rules.py",
+      "line_range": [
+        125,
+        139
+      ],
+      "defect_description": "Missing state exemption threshold check causing improper VAT surcharges",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-023",
+    "pr_id": "PR-2025-BILL-307",
+    "sample_type": "controlled_injection",
+    "repository": "escrow-contract",
+    "commit_hash": "0017abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-023-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/escrow/settlement.py",
+      "line_range": [
+        95,
+        110
+      ],
+      "defect_description": "Premature funds release prior to multi-party arbitration timeout window",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-024",
+    "pr_id": "PR-2025-BILL-308",
+    "sample_type": "historical_verified",
+    "repository": "voucher-redemption",
+    "commit_hash": "0018abcdef012345",
+    "domain": "Business_Logic",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-024-BUSI",
+      "category": "Business_Logic",
+      "vulnerable_file": "src/voucher/discount_rules.py",
+      "line_range": [
+        48,
+        59
+      ],
+      "defect_description": "Stackable discount code allows 100%+ deduction on promotional carts",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-025",
+    "pr_id": "PR-2025-DATA-401",
+    "sample_type": "controlled_injection",
+    "repository": "storage-engine",
+    "commit_hash": "0019abcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-025-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/storage/wal_writer.py",
+      "line_range": [
+        160,
+        175
+      ],
+      "defect_description": "Unflushed write buffer lost on sudden SIGTERM prior to sync checkpoint",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-026",
+    "pr_id": "PR-2025-DATA-402",
+    "sample_type": "historical_verified",
+    "repository": "data-pipeline",
+    "commit_hash": "001aabcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-026-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/pipeline/schema_validator.py",
+      "line_range": [
+        112,
+        126
+      ],
+      "defect_description": "Silent data loss: unmapped schema columns discarded without quarantine log",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-027",
+    "pr_id": "PR-2025-DATA-403",
+    "sample_type": "controlled_injection",
+    "repository": "blob-storage",
+    "commit_hash": "001babcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-027-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/blob/multipart_upload.py",
+      "line_range": [
+        85,
+        98
+      ],
+      "defect_description": "Dangling multipart fragments left uncollected on upload cancellation",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-028",
+    "pr_id": "PR-2025-DATA-404",
+    "sample_type": "historical_verified",
+    "repository": "cache-invalidation",
+    "commit_hash": "001cabcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-028-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/cache/pubsub_invalidator.py",
+      "line_range": [
+        70,
+        84
+      ],
+      "defect_description": "Cache stampede: concurrent unbuffered misses overwhelm backend database",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-029",
+    "pr_id": "PR-2025-DATA-405",
+    "sample_type": "controlled_injection",
+    "repository": "migration-runner",
+    "commit_hash": "001dabcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "High",
+    "target_defect": {
+      "defect_id": "DEF-029-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/migration/table_alter.py",
+      "line_range": [
+        130,
+        144
+      ],
+      "defect_description": "Missing transaction boundary on multi-table schema migration failure",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": true,
+      "tool_source": "LLM_Generated_Summary",
+      "claimed_scope": [
+        "High-Level Workflow Check"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": "Tool claimed verification but omitted critical boundary verification",
+      "expected_agent_behavior": "FLAG_UNCOVERED_GAP"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-030",
+    "pr_id": "PR-2025-DATA-406",
+    "sample_type": "historical_verified",
+    "repository": "audit-logger",
+    "commit_hash": "001eabcdef012345",
+    "domain": "Data_Integrity",
+    "severity": "Critical",
+    "target_defect": {
+      "defect_id": "DEF-030-DATA",
+      "category": "Data_Integrity",
+      "vulnerable_file": "src/audit/buffered_shipper.py",
+      "line_range": [
+        50,
+        62
+      ],
+      "defect_description": "Audit event dropped when memory buffer overflows without backpressure trigger",
+      "expected_decision": "REJECT_OR_REQUEST_CHANGES"
+    },
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Lint & Style Rules"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "VERIFY_COVERAGE_BOUNDARIES"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-031",
+    "pr_id": "PR-2025-CLEAN-501",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-1",
+    "commit_hash": "001ffeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-032",
+    "pr_id": "PR-2025-CLEAN-502",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-2",
+    "commit_hash": "0020feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-033",
+    "pr_id": "PR-2025-CLEAN-503",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-3",
+    "commit_hash": "0021feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-034",
+    "pr_id": "PR-2025-CLEAN-504",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-4",
+    "commit_hash": "0022feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-035",
+    "pr_id": "PR-2025-CLEAN-505",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-5",
+    "commit_hash": "0023feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-036",
+    "pr_id": "PR-2025-CLEAN-506",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-6",
+    "commit_hash": "0024feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-037",
+    "pr_id": "PR-2025-CLEAN-507",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-7",
+    "commit_hash": "0025feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-038",
+    "pr_id": "PR-2025-CLEAN-508",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-8",
+    "commit_hash": "0026feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-039",
+    "pr_id": "PR-2025-CLEAN-509",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-9",
+    "commit_hash": "0027feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-040",
+    "pr_id": "PR-2025-CLEAN-510",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-0",
+    "commit_hash": "0028feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-041",
+    "pr_id": "PR-2025-CLEAN-511",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-1",
+    "commit_hash": "0029feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-042",
+    "pr_id": "PR-2025-CLEAN-512",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-2",
+    "commit_hash": "002afeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-043",
+    "pr_id": "PR-2025-CLEAN-513",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-3",
+    "commit_hash": "002bfeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-044",
+    "pr_id": "PR-2025-CLEAN-514",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-4",
+    "commit_hash": "002cfeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-045",
+    "pr_id": "PR-2025-CLEAN-515",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-5",
+    "commit_hash": "002dfeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-046",
+    "pr_id": "PR-2025-CLEAN-516",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-6",
+    "commit_hash": "002efeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-047",
+    "pr_id": "PR-2025-CLEAN-517",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-7",
+    "commit_hash": "002ffeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-048",
+    "pr_id": "PR-2025-CLEAN-518",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-8",
+    "commit_hash": "0030feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-049",
+    "pr_id": "PR-2025-CLEAN-519",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-9",
+    "commit_hash": "0031feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-050",
+    "pr_id": "PR-2025-CLEAN-520",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-0",
+    "commit_hash": "0032feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-051",
+    "pr_id": "PR-2025-CLEAN-521",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-1",
+    "commit_hash": "0033feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-052",
+    "pr_id": "PR-2025-CLEAN-522",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-2",
+    "commit_hash": "0034feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-053",
+    "pr_id": "PR-2025-CLEAN-523",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-3",
+    "commit_hash": "0035feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-054",
+    "pr_id": "PR-2025-CLEAN-524",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-4",
+    "commit_hash": "0036feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-055",
+    "pr_id": "PR-2025-CLEAN-525",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-5",
+    "commit_hash": "0037feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-056",
+    "pr_id": "PR-2025-CLEAN-526",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-6",
+    "commit_hash": "0038feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-057",
+    "pr_id": "PR-2025-CLEAN-527",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-7",
+    "commit_hash": "0039feedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-058",
+    "pr_id": "PR-2025-CLEAN-528",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-8",
+    "commit_hash": "003afeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-059",
+    "pr_id": "PR-2025-CLEAN-529",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-9",
+    "commit_hash": "003bfeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  },
+  {
+    "benchmark_id": "BENCH-060",
+    "pr_id": "PR-2025-CLEAN-530",
+    "sample_type": "clean_control_sample",
+    "repository": "repo-clean-service-0",
+    "commit_hash": "003cfeedbeef0123",
+    "domain": "General",
+    "severity": "None",
+    "target_defect": null,
+    "stress_test_misleading_evidence": {
+      "has_misleading_pass": false,
+      "tool_source": "Deterministic_Static",
+      "claimed_scope": [
+        "Full Test Suite",
+        "Static Type Checking"
+      ],
+      "reported_status": "Pass",
+      "flaw_in_evidence": null,
+      "expected_agent_behavior": "SAFE_TO_APPROVE"
+    }
+  }
+]

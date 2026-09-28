@@ -1,0 +1,109 @@
+{
+    "Table_ID": "Master_Table_4_RQ3_DGate_Decision_Friction",
+    "Description": "RQ3 Quality-Friction Decision Matrix and Tradeoff with Phase 3 Compliance Gate (N=60 PR Units)",
+    "Benchmark_Structure": {
+        "Total_PR_Units": 60,
+        "Defect_Introducing_PRs": 30,
+        "Verified_Defect_Free_Controls": 30
+    },
+    "Defect_Introducing_Cohort_N30": {
+        "Reviewer_Cognitive_Localization_Recall": {
+            "Cond_D_Advisory": {
+                "detected": 27,
+                "rate": 0.9,
+                "ci_95": [
+                    0.744,
+                    0.965
+                ]
+            },
+            "Cond_DGate_HardGate": {
+                "detected": 27,
+                "rate": 0.9,
+                "ci_95": [
+                    0.744,
+                    0.965
+                ]
+            },
+            "Identity_Note": "Reviewer localization recall is identically 90.0% in both D and D+Gate; the gate has no unassisted perception."
+        },
+        "Policy_Gate_Action_On_3_Missed_PRs": {
+            "Cond_D_Advisory": {
+                "Action": "Advisory approval permitted by reviewer",
+                "Unsupported_Approvals": {
+                    "count": 3,
+                    "rate": 0.1
+                },
+                "Merge_Interception_Rate": {
+                    "count": 27,
+                    "rate": 0.9
+                }
+            },
+            "Cond_DGate_HardGate": {
+                "Action": "Mechanically blocked by Phase 3 set-union check: union(e.scope) not superset of Omega_d",
+                "Unsupported_Approvals": {
+                    "count": 0,
+                    "rate": 0.0
+                },
+                "Merge_Interception_Rate": {
+                    "count": 30,
+                    "rate": 1.0
+                },
+                "Mechanism": "Set-theoretic policy enforcement prevents unverified obligations from merging."
+            }
+        }
+    },
+    "Verified_Defect_Free_Control_Cohort_N30": {
+        "Definition": "Unaffected controls with no post-merge defect links within observational horizon",
+        "Reviewer_Evaluation": {
+            "approved": 30,
+            "rate": 1.0,
+            "false_alarms": 0
+        },
+        "Policy_Compliance_Gate_Evaluation": {
+            "Obligations_Generated": "Standard CI testing and documentation obligations",
+            "Evidence_Furnished": "Repository baseline CI suite satisfied union(e.scope) >= Omega_d",
+            "Gate_Decision": "Eligible (30/30 passed)",
+            "Clean_False_Blocking_Rate": 0.0,
+            "Clean_False_Blocking_Count": "0/30",
+            "Exact_95_CI_Clopper_Pearson": [
+                0.0,
+                0.116
+            ],
+            "Wilson_Score_95_CI": [
+                0.0,
+                0.114
+            ],
+            "Interpretation": "0 false blocks observed in 30 controls; upper bound of 95% exact confidence interval is 11.6%."
+        }
+    },
+    "Adversarial_Misleading_Evidence_Resistance_N17": {
+        "Stress_Test_Count": 17,
+        "Cond_A_Raw": {
+            "resisted": "N/A",
+            "rate": "N/A",
+            "reason": "No automated tool summaries present to evaluate resistance against"
+        },
+        "Cond_B_Generic_AI": {
+            "resisted": 4,
+            "rate": 0.235
+        },
+        "Cond_C_Matched_Narrative": {
+            "resisted": 12,
+            "rate": 0.706
+        },
+        "Cond_D_CARE_Pack": {
+            "resisted": 16,
+            "rate": 0.941
+        },
+        "Cond_DGate_HardGate": {
+            "resisted": 17,
+            "rate": 1.0,
+            "note": "16 caught cognitively + 1 mechanically blocked by gate"
+        }
+    },
+    "Operational_Overhead": {
+        "Phase3_Gate_Verification_Cost": "Mean 50 tokens / PR",
+        "Secondary_Triage_For_Gate_Blocked_PRs": "Mean 420 tokens / PR",
+        "Amortized_Triage_Over_Full_Suite": "21.0 tokens / PR"
+    }
+}

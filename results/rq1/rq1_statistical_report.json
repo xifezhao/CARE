@@ -1,0 +1,38 @@
+{
+    "Metric": "Area Under the Budget-Yield Curve (AUBC)",
+    "Bootstrapping_Iterations": 1000,
+    "FIFO_Baseline": {
+        "Mean_AUBC": 0.5,
+        "95_CI": [
+            0.443,
+            0.559
+        ],
+        "Theoretical_Expectation": 0.5,
+        "Rationale": "Under chronological arrival with uniformly distributed defects, cumulative yield is expected diagonal y=x, yielding integral 0.500."
+    },
+    "CARE_Scheduler": {
+        "Mean_AUBC": 0.713,
+        "95_CI": [
+            0.668,
+            0.756
+        ]
+    },
+    "Paired_Difference": {
+        "Mean_Delta_AUBC": 0.213,
+        "95_CI": [
+            0.142,
+            0.283
+        ]
+    },
+    "Statistical_Test": {
+        "Test_Type": "Mann-Whitney U Test (One-sided greater) & Paired Bootstrap Test",
+        "U_Statistic": 1000000.0,
+        "p_value": 0.0,
+        "Is_Significant_0_001": true
+    },
+    "Effect_Size": {
+        "Metric": "Cliff's Delta",
+        "Value": 1.0,
+        "Interpretation": "Large"
+    }
+}

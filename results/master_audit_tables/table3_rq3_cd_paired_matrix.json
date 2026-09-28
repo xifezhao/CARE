@@ -1,0 +1,69 @@
+{
+    "Table_ID": "Master_Table_3_RQ3_CD_Paired_Matrix",
+    "Description": "RQ3 Paired Outcome Matrix between Info-Matched Narrative (Cond C) and CARE Evidence Pack (Cond D)",
+    "Cohort": "Information-Matched Evaluation Benchmark (N=30 Defect PR Units, ~5,746 vs 5,892 tokens)",
+    "Contingency_Matrix_2x2": {
+        "Both_Detected": {
+            "count": 21,
+            "rate": 0.7
+        },
+        "Cond_D_Only_b": {
+            "count": 6,
+            "rate": 0.2
+        },
+        "Cond_C_Only_c": {
+            "count": 0,
+            "rate": 0.0
+        },
+        "Neither_Detected": {
+            "count": 3,
+            "rate": 0.1
+        },
+        "Total_Defect_PRs": 30
+    },
+    "Marginal_Totals": {
+        "Cond_C_Recall": {
+            "count": 21,
+            "rate": 0.7,
+            "ci_95": [
+                0.521,
+                0.833
+            ]
+        },
+        "Cond_D_Recall": {
+            "count": 27,
+            "rate": 0.9,
+            "ci_95": [
+                0.744,
+                0.965
+            ]
+        },
+        "Net_Gain": {
+            "count": 6,
+            "pp": 20.0,
+            "ci_95": [
+                4.3,
+                35.7
+            ]
+        }
+    },
+    "Primary_Inferential_Test": {
+        "Endpoint_Definition": "Binary PR-Level Defect Localization (0/1 per PR)",
+        "Test_Name": "Exact two-sided McNemar's test (binomial distribution on discordant pairs b=6, c=0)",
+        "Formula": "p = 2 * (0.5)^6 = 2 * 0.015625 = 0.03125",
+        "p_value": 0.03125,
+        "one_sided_p": 0.01562,
+        "significance": "Statistically significant primary gain (p = 0.031 < 0.05)"
+    },
+    "Exploratory_Secondary_Metric": {
+        "Endpoint_Definition": "Continuous Explanation Completeness & Diagnostic Quality Score on [0.0, 1.0] scale",
+        "Scoring_Rubric": "Partial credit across 4 components: line localization (0.25), root cause explanation (0.25), trigger condition (0.25), remediation validity (0.25)",
+        "Mean_Score_Cond_C": 0.682,
+        "Mean_Score_Cond_D": 0.887,
+        "Test_Name": "Paired Wilcoxon signed-rank test",
+        "Statistic_W": 31.5,
+        "p_value": 0.005,
+        "Effect_Size_Cliffs_Delta": 0.2,
+        "Decoupling_Note": "This continuous secondary metric evaluates diagnostic explanation depth and must not be conflated as a competing test of binary PR localization."
+    }
+}

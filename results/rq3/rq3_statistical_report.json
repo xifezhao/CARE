@@ -1,0 +1,36 @@
+{
+    "Primary_Endpoint_Testing": {
+        "Unit_Of_Inference": "Single Defect-Bearing Pull Request (N=30)",
+        "Test_Type": "Exact McNemar's Test for Paired Binary Proportions",
+        "Observed_2x2_Matrix": {
+            "Both_Found": 21,
+            "D_Only_Found": 6,
+            "C_Only_Found": 0,
+            "Neither_Found": 3
+        },
+        "Two_Sided_p_value": 0.03125,
+        "One_Sided_p_value": 0.01562,
+        "Net_PR_Gain": "+6 PRs (+20.0 percentage points)",
+        "Interpretation": "Statistically significant improvement under exact paired test (p = 0.03125)"
+    },
+    "Secondary_Endpoint_Testing": {
+        "Test_Type": "Paired Wilcoxon Signed-Rank Test & Cliff's Delta",
+        "Wilcoxon_W": 0.0,
+        "p_value": 0.0211,
+        "Cliffs_Delta": 0.2,
+        "Unsupported_Approval_Reduction_W": 0.0,
+        "Unsupported_Approval_p_value": 0.0211,
+        "Unsupported_Approval_Cliffs_Delta": -0.2
+    },
+    "Policy_Enforcement_Effect": {
+        "Comparison": "Condition_D_Gate (Hard Compliance Gate) vs. Condition_D_CARE_Pack (Advisory)",
+        "Reviewer_Localization_Recall_Both": 0.9,
+        "Interception_Rate_Advisory_D": 0.9,
+        "Interception_Rate_HardGate_D": 1.0,
+        "Unsupported_Approvals_Advisory_D": 0.1,
+        "Unsupported_Approvals_HardGate_D": 0.0,
+        "Gate_Verification_Overhead_Tokens": 50,
+        "Secondary_Triage_Tokens_Per_Blocked_PR": 420,
+        "Mechanism": "Set-theoretic union gate structurally blocks merge when any obligation in Omega_d is unsatisfied, preventing unverified approvals without claiming unassisted defect discovery."
+    }
+}

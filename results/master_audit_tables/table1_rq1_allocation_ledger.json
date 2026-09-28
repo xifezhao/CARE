@@ -1,0 +1,74 @@
+{
+    "Table_ID": "Master_Table_1_RQ1_Allocation_Ledger",
+    "Description": "RQ1 Review Task Allocation and Post-Merge Defect PR Prioritization Ledger",
+    "Simulation_PR_Cohort": 5000,
+    "Average_Tasks_Per_PR": 1.8,
+    "Total_Review_Task_Slots_Generated": 9000,
+    "Budget_Unit": "Review Task Slots (discrete allocation quota)",
+    "Preempted_Mandatory_Task_Slots": 1250,
+    "Discretionary_Task_Slots": 7750,
+    "Defect_Coverage_Accounting": "Deduplicated PR-level associated post-merge defect coverage (prioritization queue enrichment)",
+    "At_20_Percent_Task_Budget": {
+        "CARE_Scheduler": {
+            "coverage": 0.584,
+            "ci_95": [
+                0.552,
+                0.616
+            ]
+        },
+        "Static_Risk_Baseline": {
+            "coverage": 0.412,
+            "ci_95": [
+                0.378,
+                0.445
+            ]
+        },
+        "Empirical_FIFO_Baseline": {
+            "coverage": 0.203,
+            "ci_95": [
+                0.175,
+                0.232
+            ]
+        },
+        "Theoretical_Random": {
+            "coverage": 0.2
+        }
+    },
+    "Integral_AUBC": {
+        "CARE_Scheduler": {
+            "aubc": 0.714,
+            "ci_95": [
+                0.668,
+                0.756
+            ],
+            "raw_unrounded": 0.7136
+        },
+        "Static_Risk_Baseline": {
+            "aubc": 0.621,
+            "ci_95": [
+                0.575,
+                0.664
+            ],
+            "raw_unrounded": 0.6212
+        },
+        "Empirical_FIFO_Baseline": {
+            "aubc": 0.5,
+            "ci_95": [
+                0.443,
+                0.559
+            ],
+            "raw_unrounded": 0.5003
+        },
+        "Paired_Difference_Delta_AUBC": {
+            "delta_aubc": 0.213,
+            "ci_95": [
+                0.142,
+                0.283
+            ],
+            "p_value": "< 0.001",
+            "cliffs_delta": 1.0,
+            "cliffs_delta_unit": "1,000 paired daily bootstrap resamples (CARE exceeded FIFO in 100% of resampled days)",
+            "rounding_note": "Raw delta 0.7136 - 0.5003 = 0.2133 rounds to 0.213 (explaining 0.001 arithmetic difference from 0.714 - 0.500 = 0.214)"
+        }
+    }
+}

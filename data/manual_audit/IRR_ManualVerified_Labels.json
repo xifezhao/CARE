@@ -1,0 +1,3002 @@
+[
+  {
+    "pr_id": "PR-2025-0001",
+    "observation_days": 216,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0002",
+    "observation_days": 245,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0003",
+    "observation_days": 349,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0004",
+    "observation_days": 217,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0005",
+    "observation_days": 216,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0006",
+    "observation_days": 349,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0007",
+    "observation_days": 281,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0008",
+    "observation_days": 250,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0009",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0010",
+    "observation_days": 236,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0011",
+    "observation_days": 298,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0012",
+    "observation_days": 327,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0013",
+    "observation_days": 306,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0014",
+    "observation_days": 302,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0015",
+    "observation_days": 221,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0016",
+    "observation_days": 230,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0017",
+    "observation_days": 307,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0018",
+    "observation_days": 303,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0019",
+    "observation_days": 278,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0020",
+    "observation_days": 228,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0021",
+    "observation_days": 272,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0022",
+    "observation_days": 266,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0023",
+    "observation_days": 224,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0024",
+    "observation_days": 290,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0025",
+    "observation_days": 290,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0026",
+    "observation_days": 327,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0027",
+    "observation_days": 347,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0028",
+    "observation_days": 312,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0029",
+    "observation_days": 245,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0030",
+    "observation_days": 222,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0031",
+    "observation_days": 250,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0032",
+    "observation_days": 226,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0033",
+    "observation_days": 329,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0034",
+    "observation_days": 212,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0035",
+    "observation_days": 347,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0036",
+    "observation_days": 297,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0037",
+    "observation_days": 326,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0038",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0039",
+    "observation_days": 339,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0040",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0041",
+    "observation_days": 260,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0042",
+    "observation_days": 348,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0043",
+    "observation_days": 210,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0044",
+    "observation_days": 238,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0045",
+    "observation_days": 288,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0046",
+    "observation_days": 230,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0047",
+    "observation_days": 227,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0048",
+    "observation_days": 242,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0049",
+    "observation_days": 350,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0050",
+    "observation_days": 318,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0051",
+    "observation_days": 261,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0052",
+    "observation_days": 305,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0053",
+    "observation_days": 240,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0054",
+    "observation_days": 215,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0055",
+    "observation_days": 266,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0056",
+    "observation_days": 225,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0057",
+    "observation_days": 294,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0058",
+    "observation_days": 334,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0059",
+    "observation_days": 331,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0060",
+    "observation_days": 314,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0061",
+    "observation_days": 320,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0062",
+    "observation_days": 223,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0063",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0064",
+    "observation_days": 237,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0065",
+    "observation_days": 324,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0066",
+    "observation_days": 328,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0067",
+    "observation_days": 323,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0068",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0069",
+    "observation_days": 213,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0070",
+    "observation_days": 270,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0071",
+    "observation_days": 264,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0072",
+    "observation_days": 252,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0073",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0074",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0075",
+    "observation_days": 334,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0076",
+    "observation_days": 224,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0077",
+    "observation_days": 290,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0078",
+    "observation_days": 338,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0079",
+    "observation_days": 224,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0080",
+    "observation_days": 257,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0081",
+    "observation_days": 270,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0082",
+    "observation_days": 273,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0083",
+    "observation_days": 230,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0084",
+    "observation_days": 343,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0085",
+    "observation_days": 290,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0086",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0087",
+    "observation_days": 228,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0088",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0089",
+    "observation_days": 277,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0090",
+    "observation_days": 227,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0091",
+    "observation_days": 250,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0092",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0093",
+    "observation_days": 345,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0094",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0095",
+    "observation_days": 244,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0096",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0097",
+    "observation_days": 297,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0098",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0099",
+    "observation_days": 223,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0100",
+    "observation_days": 280,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0101",
+    "observation_days": 243,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0102",
+    "observation_days": 323,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0103",
+    "observation_days": 212,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0104",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0105",
+    "observation_days": 247,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0106",
+    "observation_days": 303,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0107",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0108",
+    "observation_days": 273,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0109",
+    "observation_days": 314,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0110",
+    "observation_days": 270,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0111",
+    "observation_days": 255,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0112",
+    "observation_days": 295,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0113",
+    "observation_days": 273,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0114",
+    "observation_days": 237,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0115",
+    "observation_days": 330,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0116",
+    "observation_days": 327,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0117",
+    "observation_days": 268,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0118",
+    "observation_days": 312,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0119",
+    "observation_days": 281,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0120",
+    "observation_days": 347,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0121",
+    "observation_days": 276,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0122",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0123",
+    "observation_days": 298,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0124",
+    "observation_days": 340,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0125",
+    "observation_days": 258,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0126",
+    "observation_days": 210,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0127",
+    "observation_days": 260,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0128",
+    "observation_days": 294,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0129",
+    "observation_days": 241,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0130",
+    "observation_days": 289,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0131",
+    "observation_days": 285,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0132",
+    "observation_days": 307,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0133",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0134",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0135",
+    "observation_days": 292,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0136",
+    "observation_days": 264,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0137",
+    "observation_days": 253,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0138",
+    "observation_days": 295,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0139",
+    "observation_days": 270,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0140",
+    "observation_days": 260,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0141",
+    "observation_days": 331,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0142",
+    "observation_days": 326,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0143",
+    "observation_days": 259,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0144",
+    "observation_days": 312,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0145",
+    "observation_days": 211,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0146",
+    "observation_days": 237,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0147",
+    "observation_days": 342,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0148",
+    "observation_days": 241,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0149",
+    "observation_days": 345,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0150",
+    "observation_days": 323,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0151",
+    "observation_days": 339,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0152",
+    "observation_days": 324,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0153",
+    "observation_days": 331,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0154",
+    "observation_days": 280,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0155",
+    "observation_days": 271,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0156",
+    "observation_days": 283,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0157",
+    "observation_days": 348,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0158",
+    "observation_days": 308,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0159",
+    "observation_days": 226,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0160",
+    "observation_days": 329,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0161",
+    "observation_days": 317,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0162",
+    "observation_days": 215,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0163",
+    "observation_days": 307,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0164",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0165",
+    "observation_days": 317,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0166",
+    "observation_days": 266,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0167",
+    "observation_days": 334,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0168",
+    "observation_days": 313,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0169",
+    "observation_days": 242,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0170",
+    "observation_days": 310,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0171",
+    "observation_days": 231,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0172",
+    "observation_days": 328,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0173",
+    "observation_days": 293,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0174",
+    "observation_days": 307,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0175",
+    "observation_days": 317,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0176",
+    "observation_days": 214,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0177",
+    "observation_days": 299,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0178",
+    "observation_days": 220,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0179",
+    "observation_days": 261,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0180",
+    "observation_days": 271,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0181",
+    "observation_days": 265,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0182",
+    "observation_days": 304,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0183",
+    "observation_days": 239,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0184",
+    "observation_days": 289,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0185",
+    "observation_days": 289,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0186",
+    "observation_days": 306,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0187",
+    "observation_days": 229,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0188",
+    "observation_days": 272,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0189",
+    "observation_days": 240,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0190",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0191",
+    "observation_days": 304,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0192",
+    "observation_days": 213,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0193",
+    "observation_days": 237,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0194",
+    "observation_days": 327,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0195",
+    "observation_days": 343,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0196",
+    "observation_days": 347,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0197",
+    "observation_days": 278,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0198",
+    "observation_days": 232,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0199",
+    "observation_days": 328,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0200",
+    "observation_days": 296,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0201",
+    "observation_days": 256,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0202",
+    "observation_days": 276,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0203",
+    "observation_days": 280,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0204",
+    "observation_days": 258,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0205",
+    "observation_days": 335,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0206",
+    "observation_days": 331,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0207",
+    "observation_days": 214,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0208",
+    "observation_days": 272,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0209",
+    "observation_days": 331,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0210",
+    "observation_days": 350,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0211",
+    "observation_days": 279,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0212",
+    "observation_days": 259,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0213",
+    "observation_days": 257,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0214",
+    "observation_days": 280,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0215",
+    "observation_days": 344,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0216",
+    "observation_days": 259,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0217",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0218",
+    "observation_days": 280,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0219",
+    "observation_days": 284,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0220",
+    "observation_days": 335,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0221",
+    "observation_days": 282,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0222",
+    "observation_days": 257,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0223",
+    "observation_days": 332,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0224",
+    "observation_days": 335,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0225",
+    "observation_days": 223,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0226",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0227",
+    "observation_days": 316,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0228",
+    "observation_days": 267,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0229",
+    "observation_days": 323,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0230",
+    "observation_days": 319,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0231",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0232",
+    "observation_days": 264,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0233",
+    "observation_days": 271,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0234",
+    "observation_days": 210,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0235",
+    "observation_days": 330,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0236",
+    "observation_days": 282,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0237",
+    "observation_days": 269,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0238",
+    "observation_days": 260,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0239",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0240",
+    "observation_days": 228,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0241",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0242",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0243",
+    "observation_days": 338,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0244",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0245",
+    "observation_days": 274,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0246",
+    "observation_days": 215,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0247",
+    "observation_days": 278,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0248",
+    "observation_days": 254,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0249",
+    "observation_days": 281,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0250",
+    "observation_days": 335,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0251",
+    "observation_days": 314,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0252",
+    "observation_days": 251,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0253",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0254",
+    "observation_days": 350,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0255",
+    "observation_days": 274,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0256",
+    "observation_days": 313,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0257",
+    "observation_days": 210,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0258",
+    "observation_days": 315,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0259",
+    "observation_days": 337,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0260",
+    "observation_days": 262,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0261",
+    "observation_days": 283,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0262",
+    "observation_days": 241,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0263",
+    "observation_days": 271,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0264",
+    "observation_days": 213,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0265",
+    "observation_days": 239,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0266",
+    "observation_days": 249,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0267",
+    "observation_days": 340,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0268",
+    "observation_days": 333,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0269",
+    "observation_days": 247,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0270",
+    "observation_days": 340,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0271",
+    "observation_days": 227,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0272",
+    "observation_days": 316,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0273",
+    "observation_days": 278,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0274",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0275",
+    "observation_days": 335,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0276",
+    "observation_days": 333,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0277",
+    "observation_days": 349,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0278",
+    "observation_days": 258,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0279",
+    "observation_days": 308,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0280",
+    "observation_days": 221,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0281",
+    "observation_days": 307,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0282",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0283",
+    "observation_days": 338,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0284",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0285",
+    "observation_days": 344,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0286",
+    "observation_days": 246,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0287",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0288",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0289",
+    "observation_days": 230,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0290",
+    "observation_days": 346,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0291",
+    "observation_days": 334,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0292",
+    "observation_days": 227,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0293",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0294",
+    "observation_days": 321,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0295",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0296",
+    "observation_days": 217,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0297",
+    "observation_days": 285,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0298",
+    "observation_days": 272,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0299",
+    "observation_days": 256,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0300",
+    "observation_days": 307,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0301",
+    "observation_days": 246,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0302",
+    "observation_days": 327,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0303",
+    "observation_days": 329,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0304",
+    "observation_days": 250,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0305",
+    "observation_days": 286,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0306",
+    "observation_days": 274,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0307",
+    "observation_days": 308,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0308",
+    "observation_days": 307,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0309",
+    "observation_days": 285,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0310",
+    "observation_days": 311,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0311",
+    "observation_days": 222,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0312",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0313",
+    "observation_days": 300,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0314",
+    "observation_days": 274,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0315",
+    "observation_days": 245,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0316",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0317",
+    "observation_days": 303,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0318",
+    "observation_days": 285,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0319",
+    "observation_days": 261,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0320",
+    "observation_days": 303,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0321",
+    "observation_days": 252,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0322",
+    "observation_days": 333,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0323",
+    "observation_days": 296,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0324",
+    "observation_days": 229,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0325",
+    "observation_days": 311,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0326",
+    "observation_days": 303,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0327",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0328",
+    "observation_days": 277,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0329",
+    "observation_days": 305,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0330",
+    "observation_days": 216,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0331",
+    "observation_days": 293,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0332",
+    "observation_days": 226,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0333",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0334",
+    "observation_days": 221,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0335",
+    "observation_days": 336,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0336",
+    "observation_days": 347,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0337",
+    "observation_days": 348,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0338",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0339",
+    "observation_days": 335,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0340",
+    "observation_days": 281,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0341",
+    "observation_days": 323,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0342",
+    "observation_days": 302,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0343",
+    "observation_days": 349,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0344",
+    "observation_days": 225,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0345",
+    "observation_days": 241,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0346",
+    "observation_days": 233,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0347",
+    "observation_days": 215,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0348",
+    "observation_days": 242,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0349",
+    "observation_days": 263,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0350",
+    "observation_days": 269,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0351",
+    "observation_days": 210,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0352",
+    "observation_days": 243,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0353",
+    "observation_days": 238,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0354",
+    "observation_days": 213,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0355",
+    "observation_days": 292,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0356",
+    "observation_days": 242,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0357",
+    "observation_days": 226,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0358",
+    "observation_days": 341,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0359",
+    "observation_days": 266,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0360",
+    "observation_days": 343,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0361",
+    "observation_days": 217,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0362",
+    "observation_days": 312,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0363",
+    "observation_days": 323,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0364",
+    "observation_days": 247,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0365",
+    "observation_days": 350,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0366",
+    "observation_days": 345,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0367",
+    "observation_days": 320,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0368",
+    "observation_days": 265,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0369",
+    "observation_days": 315,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0370",
+    "observation_days": 316,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0371",
+    "observation_days": 290,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0372",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0373",
+    "observation_days": 233,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0374",
+    "observation_days": 234,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0375",
+    "observation_days": 243,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0376",
+    "observation_days": 294,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0377",
+    "observation_days": 318,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0378",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0379",
+    "observation_days": 339,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0380",
+    "observation_days": 267,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0381",
+    "observation_days": 304,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0382",
+    "observation_days": 267,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0383",
+    "observation_days": 216,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0384",
+    "observation_days": 278,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0385",
+    "observation_days": 289,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0386",
+    "observation_days": 256,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0387",
+    "observation_days": 312,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0388",
+    "observation_days": 217,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0389",
+    "observation_days": 306,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0390",
+    "observation_days": 304,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0391",
+    "observation_days": 231,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0392",
+    "observation_days": 222,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0393",
+    "observation_days": 318,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0394",
+    "observation_days": 279,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0395",
+    "observation_days": 298,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0396",
+    "observation_days": 334,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0397",
+    "observation_days": 266,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0398",
+    "observation_days": 211,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0399",
+    "observation_days": 245,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0400",
+    "observation_days": 240,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0401",
+    "observation_days": 254,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0402",
+    "observation_days": 268,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0403",
+    "observation_days": 300,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0404",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0405",
+    "observation_days": 229,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0406",
+    "observation_days": 313,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0407",
+    "observation_days": 239,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0408",
+    "observation_days": 253,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0409",
+    "observation_days": 302,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0410",
+    "observation_days": 272,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0411",
+    "observation_days": 230,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0412",
+    "observation_days": 296,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0413",
+    "observation_days": 229,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0414",
+    "observation_days": 340,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0415",
+    "observation_days": 299,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0416",
+    "observation_days": 247,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0417",
+    "observation_days": 260,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0418",
+    "observation_days": 229,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0419",
+    "observation_days": 336,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0420",
+    "observation_days": 324,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0421",
+    "observation_days": 292,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0422",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0423",
+    "observation_days": 287,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0424",
+    "observation_days": 300,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0425",
+    "observation_days": 325,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0426",
+    "observation_days": 283,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0427",
+    "observation_days": 233,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0428",
+    "observation_days": 328,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0429",
+    "observation_days": 220,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0430",
+    "observation_days": 258,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0431",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0432",
+    "observation_days": 297,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0433",
+    "observation_days": 254,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0434",
+    "observation_days": 322,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0435",
+    "observation_days": 303,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0436",
+    "observation_days": 314,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0437",
+    "observation_days": 223,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0438",
+    "observation_days": 226,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0439",
+    "observation_days": 308,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0440",
+    "observation_days": 248,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0441",
+    "observation_days": 246,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0442",
+    "observation_days": 310,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0443",
+    "observation_days": 231,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0444",
+    "observation_days": 294,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0445",
+    "observation_days": 344,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0446",
+    "observation_days": 340,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0447",
+    "observation_days": 256,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0448",
+    "observation_days": 334,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0449",
+    "observation_days": 249,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0450",
+    "observation_days": 235,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0451",
+    "observation_days": 344,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0452",
+    "observation_days": 243,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0453",
+    "observation_days": 256,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0454",
+    "observation_days": 252,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0455",
+    "observation_days": 303,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0456",
+    "observation_days": 323,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0457",
+    "observation_days": 324,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0458",
+    "observation_days": 330,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0459",
+    "observation_days": 322,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0460",
+    "observation_days": 307,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0461",
+    "observation_days": 251,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0462",
+    "observation_days": 245,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0463",
+    "observation_days": 333,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0464",
+    "observation_days": 236,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0465",
+    "observation_days": 241,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0466",
+    "observation_days": 279,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0467",
+    "observation_days": 321,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0468",
+    "observation_days": 325,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0469",
+    "observation_days": 316,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0470",
+    "observation_days": 270,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0471",
+    "observation_days": 267,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0472",
+    "observation_days": 295,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0473",
+    "observation_days": 283,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0474",
+    "observation_days": 245,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0475",
+    "observation_days": 211,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0476",
+    "observation_days": 265,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0477",
+    "observation_days": 345,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0478",
+    "observation_days": 270,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0479",
+    "observation_days": 317,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0480",
+    "observation_days": 226,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0481",
+    "observation_days": 347,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0482",
+    "observation_days": 271,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0483",
+    "observation_days": 210,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0484",
+    "observation_days": 316,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0485",
+    "observation_days": 344,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0486",
+    "observation_days": 344,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0487",
+    "observation_days": 339,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0488",
+    "observation_days": 330,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0489",
+    "observation_days": 305,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0490",
+    "observation_days": 227,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0491",
+    "observation_days": 236,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0492",
+    "observation_days": 295,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0493",
+    "observation_days": 296,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0494",
+    "observation_days": 328,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0495",
+    "observation_days": 256,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0496",
+    "observation_days": 327,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0497",
+    "observation_days": 261,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  },
+  {
+    "pr_id": "PR-2025-0498",
+    "observation_days": 289,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0499",
+    "observation_days": 349,
+    "defect_observed": false,
+    "strength": "NA"
+  },
+  {
+    "pr_id": "PR-2025-0500",
+    "observation_days": 258,
+    "defect_observed": true,
+    "strength": "ManualVerified"
+  }
+]
